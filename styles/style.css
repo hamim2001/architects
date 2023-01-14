@@ -1,0 +1,158 @@
+
+body{
+    font-family: 'Work Sans', sans-serif;
+    margin: 0px 230px;
+    text-align: center;
+    background-color: white;
+    justify-content: center;
+}
+main{
+    background-color: rgba(255, 144, 14, 0.1);
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+}
+h3{
+    width: 700;
+    font-size: 30px;
+}
+p{
+    color: #727272;
+}
+.menu-list{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-weight: 700;
+}
+.menu-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 10px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+/* header */
+.header-title{
+    font-weight: 900;
+font-size: 64px;
+
+}
+.header-des{
+    font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #727272;
+}
+.btn{
+    color: white;
+    font-weight: 500;
+font-size: 20px;
+background-color: #FF900E;
+border-radius: 5px;
+border: none;
+height: 60px;
+width: 170px;
+margin-top: 20px;
+}
+.heading{
+    margin: 0px 130px;
+}
+/* banner */
+.img > img {
+   width: 1050px;
+   height: 500px;
+   padding: 50px;
+   position: relative;
+   right: 45px;
+}
+/* body container */
+.body-container{
+    padding-top: 80px;
+    display: flex;
+    align-items: center;
+    gap: 77px;
+    text-align: left;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.ash{
+    color: #727272;
+}
+.yellow{
+    color: #FF900E;
+}
+/* another section */
+.another-section{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    max-width: 1100px;
+    margin: 130px auto;
+}
+.details{
+    text-align: left;
+    width: 50%;
+}
+
+.architect{
+    width: 800;
+    height: 650px;
+   
+}
+.box{
+    padding-left: 7px;
+    border: none;
+    background-color: #f4efef;
+    box-shadow: 0px 5px 5px #d4d3d3;
+}
+.facts{
+    text-align: left;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.four-box{
+    display: flex;
+    justify-content: space-around;
+    gap: 124px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.flex-box{
+    font-size: 16px;
+    margin: 100px 0px;
+    padding: 20px;
+    height: 180px;
+    width: 180px;
+    border: 1px solid #FF900E;
+}
+.btn{
+    
+}
+/* sponsors */
+sponsors{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.icon{
+    height: 20px;
+    width: 100px;
+}
+.icons{
+    display: flex;
+    gap: 40px;
+    max-width: 1100px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 50px 0px;
+}
+footer{
+    margin-top: 80px;
+    margin-bottom: 120px;
+    font-size: 12px;
+}
