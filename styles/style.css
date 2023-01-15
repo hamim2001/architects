@@ -1,7 +1,7 @@
 
 body{
     font-family: 'Work Sans', sans-serif;
-    margin: 0px 230px;
+    margin: 0px 0px;
     text-align: center;
     background-color: white;
     justify-content: center;
@@ -9,8 +9,7 @@ body{
 main{
     background-color: rgba(255, 144, 14, 0.1);
     background-size: cover;
-    margin: 0px;
-    padding: 0px;
+    
 }
 h3{
     width: 700;
@@ -65,6 +64,8 @@ margin-top: 20px;
    padding: 50px;
    position: relative;
    right: 45px;
+   max-width: 1100px;
+    margin: 0 auto;
 }
 /* body container */
 .body-container{
@@ -103,12 +104,12 @@ margin-top: 20px;
 .architect{
     width: 800;
     height: 650px;
-   
+   width: 100%;
 }
 .box{
     padding-left: 7px;
     border: none;
-    background-color: #f4efef;
+    background-color: white;
     box-shadow: 0px 5px 5px #d4d3d3;
 }
 .facts{
@@ -131,8 +132,26 @@ margin-top: 20px;
     width: 180px;
     border: 1px solid #FF900E;
 }
-.btn{
-    
+.archi-img{
+    position: relative;
+    max-width: 1100px;
+    margin: 0 auto;
+
+}
+.ex-btn{
+    position: absolute;
+    bottom: 20px;
+    right: 380px;
+    height: 80px;
+    width: 126px;
+    background-color: #FF900E;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.bold{
+    font-size: 1.5em;
 }
 /* sponsors */
 sponsors{
@@ -140,8 +159,10 @@ sponsors{
     margin: 0 auto;
 }
 .icon{
-    height: 20px;
-    width: 100px;
+    height: 40px;
+    width: 120px;
+    filter: grayscale(1);
+
 }
 .icons{
     display: flex;
@@ -155,4 +176,34 @@ footer{
     margin-top: 80px;
     margin-bottom: 120px;
     font-size: 12px;
+}
+/* media query */
+
+@media screen  and (max-width: 662px) {
+    .body-container, .grid{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        max-width: 1100px;
+    margin: 0 auto;
+    
+        gap: 24px;
+     }
+     .another-section{
+        display: flex;
+        flex-direction: column-reverse;
+        max-width: 1100px;
+        margin: 0 auto;
+     }
+     .four-box{
+        display: flex;
+        flex-direction: column;
+        max-width: 1100px;
+        margin: 0 auto;
+     }
+     .icons{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1100px;
+        margin: 0 auto;
+     }
 }
