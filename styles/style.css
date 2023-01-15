@@ -3,7 +3,7 @@ body{
     font-family: 'Work Sans', sans-serif;
     margin: 0px 0px;
     text-align: center;
-    background-color: white;
+  
     justify-content: center;
 }
 main{
@@ -107,9 +107,7 @@ margin-top: 20px;
    width: 100%;
 }
 .features{
-    border-left: 5px solid #FF900E;
-    font-size: 50px;
-    
+    border-left: 5px solid #FF900E;  
 }
 .box{
     padding-left: 7px;
@@ -138,9 +136,11 @@ margin-top: 20px;
     border: 1px solid #FF900E;
     align-items: center;
     text-align: center;
+    transition: width 5s, height 5s, transform 2s;
 }
 .flex-box:hover{
     background-color: rgb(157, 243, 243);
+    transform: rotate(360deg);
 }
 .no{
     font-weight: 700;
@@ -187,9 +187,12 @@ sponsors{
     padding: 50px 0px;
 }
 footer{
-    margin-top: 80px;
-    margin-bottom: 120px;
     font-size: 12px;
+    background-color: rgba(255, 144, 14, 0.1);
+    max-width: 1100px;
+    margin: 120px auto;
+    height: 30px;
+    padding: 5px 0px;
 }
 
 /* media query */
