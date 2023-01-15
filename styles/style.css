@@ -21,7 +21,7 @@ p{
 .menu-list{
     display: flex;
     list-style: none;
-    gap: 20px;
+    gap: 50px;
     font-weight: 700;
 }
 .menu-bar{
@@ -128,9 +128,18 @@ margin-top: 20px;
     font-size: 16px;
     margin: 100px 0px;
     padding: 20px;
-    height: 180px;
+    height: 140px;
     width: 180px;
     border: 1px solid #FF900E;
+    align-items: center;
+    text-align: center;
+}
+.flex-box:hover{
+    background-color: rgb(157, 243, 243);
+}
+.no{
+    font-weight: 700;
+    color: rgb(74, 73, 73);
 }
 .archi-img{
     position: relative;
@@ -177,16 +186,16 @@ footer{
     margin-bottom: 120px;
     font-size: 12px;
 }
+
 /* media query */
 
 @media screen  and (max-width: 662px) {
     .body-container, .grid{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        max-width: 1100px;
-    margin: 0 auto;
+        max-width: 1300px;
+    margin: 0px 0px;
     
-        gap: 24px;
      }
      .another-section{
         display: flex;
@@ -198,12 +207,17 @@ footer{
         display: flex;
         flex-direction: column;
         max-width: 1100px;
-        margin: 0 auto;
+        text-align: center;
+        margin-left: 60px;
+
      }
      .icons{
         display: flex;
         flex-wrap: wrap;
         max-width: 1100px;
-        margin: 0 auto;
+        margin-left: 20px;
+
+
      }
+
 }
